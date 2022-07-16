@@ -21,7 +21,7 @@ def information(info):
     write("b" + str(i), info[key[i]])
 
 # 배경 색깔 설정
-colors = ["#33FF33", "#000000"]
+colors = ["#FFFFFF", "#33FF33"]
 background(colors)
 
 # 이름과 설명, 버튼에 들어갈 글 설정
@@ -31,7 +31,7 @@ write("button", "github")
 
 # 상세설명에 들어갈 제목과 글 설정
 informations = {
-  "좋아하는 것": "노래",
+  "좋아하는 것": "노래 감상",
   "싫어하는 것": "외출",
   "인스타 아이디": "eun_ddong",
   "요즘 보는 드라마": "환혼"
